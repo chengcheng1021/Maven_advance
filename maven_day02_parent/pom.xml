@@ -4,6 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!--
+
+    工程和模块的区别
+    工程不等于完整的的项目，模块也不等于完整的项目，一个完整的项目看的是代码，代码完整，就可以说是一个完整的项目
+    和此项目是工程和模块没有关系
+
+    工程天生只能使用自己内部资源，工程天生是独立的。后天可以和其他工程或模块建立关联关系
+    模块天生不是独立的，模块天生是属于父工程的，模块一旦创建，所有父工程的资源都可以使用
+
+    父子工程直接，子模块天生集成父工程，可以使用父工程所有资源。
+    子模块之间天生是没有任何关系的
+
+    父子工程直接不用建立关系，继承关系是先天的，不需要手动建立
+
+    平级之间的引用叫依赖，依赖不是先天的，依赖是需要后天建立的
+
+    -->
     <groupId>org.example</groupId>
     <artifactId>maven_day02_parent</artifactId>
     <packaging>pom</packaging>
@@ -14,5 +31,12 @@
         <module>maven_day02_web</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>maven_day02_service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
