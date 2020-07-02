@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [02/Jul/2020:16:59:28 +0800] "GET /maven_day02_1/maven HTTP/1.1" 404 989 http-bio-8080-exec-1 36
+0:0:0:0:0:0:0:1 - - [02/Jul/2020:17:00:20 +0800] "GET /maven_day02_1/items/findDetail HTTP/1.1" 404 1037 http-bio-8080-exec-3 326
+0:0:0:0:0:0:0:1 - - [02/Jul/2020:17:00:22 +0800] "GET /maven_day02_1/items/findDetail HTTP/1.1" 404 1037 http-bio-8080-exec-5 7
+0:0:0:0:0:0:0:1 - - [02/Jul/2020:17:00:23 +0800] "GET /maven_day02_1/items/findDetail HTTP/1.1" 404 1037 http-bio-8080-exec-6 7
+0:0:0:0:0:0:0:1 - - [02/Jul/2020:17:00:24 +0800] "GET /maven_day02_1/items/findDetail HTTP/1.1" 404 1037 http-bio-8080-exec-7 5
