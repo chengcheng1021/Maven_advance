@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feed6f3d-f364-4545-8e09-7b512f484e13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/maven_day02_dao/src/main/java/com/cc/dao/ItemsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_dao/src/main/java/com/cc/domain/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_dao/src/main/resources/com/cc/dao/ItemsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_dao/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_service/src/main/java/com/cc/service/ItemsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_service/src/main/java/com/cc/service/impl/ItemsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/java/com/cc/controller/ItemsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/webapp/WEB-INF/pages/itemDetail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven_day02_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven_day02_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_day02_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven_day02_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +37,29 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/maven_day02_web/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/maven_day02_dao/src/main/resources/spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cc.controller" />
+      <recent name="com.cc.service.impl" />
+      <recent name="com.cc.service" />
+      <recent name="com.cc.domain" />
+      <recent name="com.cc.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/maven_day02_service/src/main/resources/spring" />
+      <recent name="$PROJECT_DIR$/maven_day02_dao/src/main/resources" />
+      <recent name="$PROJECT_DIR$/maven_day02_dao/src/main/resources/com/cc/dao" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593682408649</updated>
-      <workItem from="1593682412009" duration="3942000" />
+      <workItem from="1593682412009" duration="5557000" />
     </task>
     <servers />
   </component>
@@ -47,6 +79,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="276" y="23" key="#Project_Structure" timestamp="1593691902255">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="276" y="23" key="#Project_Structure/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593691902255" />
     <state width="1405" height="238" key="GridCell.Tab.0.bottom" timestamp="1593682818945">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
