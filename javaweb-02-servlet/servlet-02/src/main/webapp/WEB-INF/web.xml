@@ -41,6 +41,15 @@
     <url-pattern>/rq</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>proper</servlet-name>
+    <servlet-class>com.cc.servlet.ServletDemo05</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>proper</servlet-name>
+    <url-pattern>/proper</url-pattern>
+  </servlet-mapping>
+
   <!-- 配置一些web应用初始化参数 -->
   <context-param>
     <param-name>url</param-name>
