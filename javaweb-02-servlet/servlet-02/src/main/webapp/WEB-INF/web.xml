@@ -22,4 +22,29 @@
     <servlet-name>getc</servlet-name>
     <url-pattern>/getc</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>gp</servlet-name>
+    <servlet-class>com.cc.servlet.ServletDemo03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>gp</servlet-name>
+    <url-pattern>/gp</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>rq</servlet-name>
+    <servlet-class>com.cc.servlet.ServletDemo04</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>rq</servlet-name>
+    <url-pattern>/rq</url-pattern>
+  </servlet-mapping>
+
+  <!-- 配置一些web应用初始化参数 -->
+  <context-param>
+    <param-name>url</param-name>
+    <param-value>jdbc:mysql://localhost:3306/mybatis</param-value>
+  </context-param>
+
 </web-app>
