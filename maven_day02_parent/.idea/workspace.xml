@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="maven_day02_web:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="feed6f3d-f364-4545-8e09-7b512f484e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/maven_day02_dao/src/main/java/com/cc/dao/ItemsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_dao/src/main/java/com/cc/domain/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_dao/src/main/resources/com/cc/dao/ItemsDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_dao/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_service/src/main/java/com/cc/service/ItemsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_service/src/main/java/com/cc/service/impl/ItemsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/java/com/cc/controller/ItemsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/resources/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven_day02_web/src/main/webapp/WEB-INF/pages/itemDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven_day02_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven_day02_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +17,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1e7pIurIaZtrshydhzYF6NPOFBe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -35,6 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/maven_day02_web/src/main/webapp/WEB-INF" />
@@ -56,10 +57,87 @@
       <recent name="com.cc.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/maven_day02_web/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/maven_day02_web/src/main/resources" />
       <recent name="$PROJECT_DIR$/maven_day02_service/src/main/resources/spring" />
       <recent name="$PROJECT_DIR$/maven_day02_dao/src/main/resources" />
       <recent name="$PROJECT_DIR$/maven_day02_dao/src/main/resources/com/cc/dao" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/maven_day02_web_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="maven_day02_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/maven_day02_web_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_maven_day02_parent" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52758" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="maven_day02_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,7 +149,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593682408649</updated>
-      <workItem from="1593682412009" duration="5557000" />
+      <workItem from="1593682412009" duration="9119000" />
+      <workItem from="1593763144043" duration="706000" />
     </task>
     <servers />
   </component>
@@ -83,25 +162,65 @@
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="276" y="23" key="#Project_Structure/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593691902255" />
-    <state width="1405" height="238" key="GridCell.Tab.0.bottom" timestamp="1593682818945">
+    <state x="377" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593692791725">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1405" height="238" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593682818945" />
-    <state width="1405" height="238" key="GridCell.Tab.0.center" timestamp="1593682818944">
+    <state x="377" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593692791725" />
+    <state width="957" height="238" key="GridCell.Tab.0.bottom" timestamp="1593758893990">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1405" height="238" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593682818944" />
-    <state width="1405" height="238" key="GridCell.Tab.0.left" timestamp="1593682818941">
+    <state width="957" height="238" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893990" />
+    <state width="957" height="238" key="GridCell.Tab.0.center" timestamp="1593758893989">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1405" height="238" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593682818941" />
-    <state width="1405" height="238" key="GridCell.Tab.0.right" timestamp="1593682818945">
+    <state width="957" height="238" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893989" />
+    <state width="957" height="238" key="GridCell.Tab.0.left" timestamp="1593758893988">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1405" height="238" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593682818945" />
-    <state x="72" y="120" width="1573" height="827" key="new project wizard" timestamp="1593682805561">
+    <state width="957" height="238" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893988" />
+    <state width="957" height="238" key="GridCell.Tab.0.right" timestamp="1593758893989">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state x="72" y="120" width="1573" height="827" key="new project wizard/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593682805561" />
+    <state width="957" height="238" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893989" />
+    <state width="957" height="238" key="GridCell.Tab.1.bottom" timestamp="1593758893991">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="957" height="238" key="GridCell.Tab.1.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893991" />
+    <state width="957" height="238" key="GridCell.Tab.1.center" timestamp="1593758893991">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="957" height="238" key="GridCell.Tab.1.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893991" />
+    <state width="957" height="238" key="GridCell.Tab.1.left" timestamp="1593758893990">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="957" height="238" key="GridCell.Tab.1.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893990" />
+    <state width="957" height="238" key="GridCell.Tab.1.right" timestamp="1593758893991">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="957" height="238" key="GridCell.Tab.1.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893991" />
+    <state width="957" height="238" key="GridCell.Tab.2.bottom" timestamp="1593758893992">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="957" height="238" key="GridCell.Tab.2.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893992" />
+    <state width="957" height="238" key="GridCell.Tab.2.center" timestamp="1593758893992">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="957" height="238" key="GridCell.Tab.2.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893992" />
+    <state width="957" height="238" key="GridCell.Tab.2.left" timestamp="1593758893992">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="957" height="238" key="GridCell.Tab.2.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893992" />
+    <state width="957" height="238" key="GridCell.Tab.2.right" timestamp="1593758893992">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="957" height="238" key="GridCell.Tab.2.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758893992" />
+    <state x="448" y="213" width="748" height="588" key="find.popup" timestamp="1593768472603">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="448" y="213" width="748" height="588" key="find.popup/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593768472603" />
+    <state x="72" y="120" width="1573" height="827" key="new project wizard" timestamp="1593758887575">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="72" y="120" width="1573" height="827" key="new project wizard/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1593758887575" />
   </component>
 </project>
