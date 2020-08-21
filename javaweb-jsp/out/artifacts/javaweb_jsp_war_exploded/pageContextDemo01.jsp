@@ -7,10 +7,10 @@
 
 <%--内置对象--%>
 <%
-    pageContext.setAttribute("name1", "橙子1号");
-    request.setAttribute("name2", "橙子2号");
-    session.setAttribute("name3", "橙子3号");
-    application.setAttribute("name4", "橙子4号");
+    pageContext.setAttribute("name1", "橙子1号");//保存的值在在一个页面中有效
+    request.setAttribute("name2", "橙子2号");//保存的值在一次请求中有效
+    session.setAttribute("name3", "橙子3号");//保存的值在一次会话中有效
+    application.setAttribute("name4", "橙子4号");//保存的值在服务器中有效
 %>
 
 <%
