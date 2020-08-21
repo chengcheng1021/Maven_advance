@@ -17,4 +17,37 @@
     <url-pattern>/cookie</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>SessionDemo01</servlet-name>
+    <servlet-class>com.cc.servlet.SessionDemo01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionDemo01</servlet-name>
+    <url-pattern>/session</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SessionDemo02</servlet-name>
+    <servlet-class>com.cc.servlet.SessionDemo02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionDemo02</servlet-name>
+    <url-pattern>/session2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SessionDemo03</servlet-name>
+    <servlet-class>com.cc.servlet.SessionDemo03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionDemo03</servlet-name>
+    <url-pattern>/session3</url-pattern>
+  </servlet-mapping>
+
+  <!-- 设置session默认的注销时间 -->
+  <session-config>
+    <!-- 1分钟后session自动失效，以分钟为单位 -->
+    <session-timeout>1</session-timeout>
+  </session-config>
+
 </web-app>
