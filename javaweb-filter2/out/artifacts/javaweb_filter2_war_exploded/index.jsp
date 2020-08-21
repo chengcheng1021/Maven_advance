@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <h1>当前有<%= this.getServletConfig().getServletContext().getAttribute("onlineCount") %>人在线</h1>
   </body>
 </html>
