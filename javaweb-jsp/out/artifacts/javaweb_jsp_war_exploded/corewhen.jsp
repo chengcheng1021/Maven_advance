@@ -13,7 +13,7 @@
         你的成绩优秀
     </c:when>
     <c:when test="${score > 80}">
-        你的良好
+        你的成绩良好
     </c:when>
     <c:when test="${score > 70}">
         你的成绩一般
