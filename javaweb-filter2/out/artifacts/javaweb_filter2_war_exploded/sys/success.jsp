@@ -14,5 +14,7 @@
 
 <h1>主页</h1>
 
+<a href="<%= request.getContextPath() %>/servlet/logout">注销</a>
+
 </body>
 </html>
